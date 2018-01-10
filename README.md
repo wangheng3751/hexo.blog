@@ -7,3 +7,7 @@
 - 清除并生成： hexo clean && hexo g
 - 本地启动：hexo s -p 端口号
 - 发布：hexo d
+
+## 参考资料
+
+- [HEXO+Github,搭建属于自己的博客](https://www.jianshu.com/p/465830080ea9)

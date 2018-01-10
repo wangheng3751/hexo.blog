@@ -1,4 +1,4 @@
-# hexo.blog
+# “有恒则成” 个人博客
 基于Hexo的个人博客搭建 访问地址：https://wangheng3751.github.io
 
 ## 命令：

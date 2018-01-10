@@ -1,0 +1,1 @@
+cp ./custom/react-native-map-linking_index.js ./node_modules/react-native-map-linking/index.js

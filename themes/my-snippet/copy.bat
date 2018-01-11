@@ -1,1 +1,4 @@
-cp ./custom/react-native-map-linking_index.js ./node_modules/react-native-map-linking/index.js
+XCOPY layout\*.* ..\snippet\layout\ /s /e /y
+XCOPY source\*.* ..\snippet\source\ /s /e /y
+XCOPY _config.yml ..\snippet\_config.yml /y
+pause

@@ -8,6 +8,7 @@ tags: HTML
 前言：我们在做网页时经常会需要有上传图片的需求，可能是选择图片或者拍照上传，如果简单的使用 input type="file" 这种方式虽然也能实现功能，但用户体验上可能会差了一些，所以本文记录了使用css+js实现图片选中后的预览及压缩上传功能，部分带来来源于网络，此处做了记录整理。
 
 效果预览：
+
 ![picture-upload.gif](http://upload-images.jianshu.io/upload_images/9814928-e0c9502b54adb3a4.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 

@@ -94,7 +94,7 @@ branding: 有恒则成
 
 ## 设置banner背景图片
 banner:
-    img: http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/banner2.jpg
+    img: https://github.com/wangheng3751/my-resources/blob/master/images/blog-banner.jpg?raw=true
 
 ## 缩略图自定义随机图片
 defaultImgs:

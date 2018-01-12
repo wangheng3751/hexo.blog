@@ -8,6 +8,8 @@ tags: React-Native
 
 背景：使用React-Native开发Android APP时，虽然React-Native已经自带弹出提示框组件Alert，但由于各大手机厂商系统风格各异，在使用React-Native自带的弹出提示组件时也风格不一，并且大部分机型的弹出框样式比较难看，或者和APP的整体风格设计不协调，当然也可以使用Modal来实现弹出框，但是又得在所有需要的View添加Modal相应标签，较为繁琐，所以本文介绍一个简单的自定义弹出框的基本步骤。
 
+效果预览：![](https://raw.githubusercontent.com/wangheng3751/my-resources/master/images/android-confirm.jpg)
+
 ### 一、设计布局文件
 弹出框多为提示框（alert），确认框（confirm）本实例展示一个简单的确认框（即包含“确认”和“取消”按钮）。具体的文字，颜色，背景色等按需修改为和UI设计风格较为统一的即可（可在Android Studio 中可视化设计）！
 ``` 

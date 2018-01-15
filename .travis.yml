@@ -44,5 +44,5 @@ branches:
     - master
 env:
  global:
-   - GH_REF: https://github.com/wangheng3751/wangheng3751.github.io.git
+   - GH_REF: github.com/wangheng3751/wangheng3751.github.io.git
 

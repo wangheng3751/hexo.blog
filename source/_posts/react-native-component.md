@@ -2,6 +2,7 @@
 title: React-Native 自定义Android原生组件--弹出提示框
 categories: 前端
 tags: React-Native
+date: 2018-01-02 14:10:00
 ---
 
 特别说明：本文仅适合未接触过或不熟悉Android原生开发的React-Native新手开发者！

@@ -24,6 +24,7 @@ tags: HTML
         <script type='text/javascript' src='index.js' charset='utf-8'></script>
     </head>
     <body> 
+    <div class='box'>
         <div class="swipe-container" >      
             <div class="item-container">
                 <img src="resource/logo.jpg"/>
@@ -68,13 +69,15 @@ tags: HTML
             <div class="action action-edit">编辑</div>
             <div class="action action-delete">删除</div>
         </div>
+    </div>
     </body>
 </html>
 ```
 ## 2.用到的一些CSS
 ```
+body{background-color: #eee;margin:0;overflow-y:scroll;}
 /*必须overflow-x:hidden 否则网页会整体出现横向滚动*/
-body{background-color: #eee;margin:0;overflow-y:scroll;overflow-x:hidden}
+.box{overflow-x:hidden;width:100%}
 /*内容宽度占据整个页面宽度 使按钮被隐藏*/
 .item-container{width:100%;padding:0.5rem;background-color: #fff;display: flex;align-items: center;height: 3.5rem}
 .item-container img{height: 3.5rem;width: 3.5rem}
@@ -87,9 +90,8 @@ body{background-color: #eee;margin:0;overflow-y:scroll;overflow-x:hidden}
 .action-edit{background:#00BCD4}
 /*-webkit-transition:all 0.3s linear;transition:all 0.3s linear;使浏览器出现滑动效果
 width: 140%;内容占100% 两个按钮各占20% ，根据按钮数量和宽度调整
-overflow: hidden;必须 否则会出现横向滚动条
 */
-.swipe-container{ margin-bottom:0.5rem; overflow: hidden; width: 140%;display: flex;-webkit-transition:all 0.3s linear;transition:all 0.3s linear;}
+.swipe-container{ margin-bottom:0.5rem;width: 140%;display: flex;-webkit-transition:all 0.3s linear;transition:all 0.3s linear;}
 /*width:20%; 和swipe-container width: 140%;相对应*/
 .swipe-container .action{width:20%;text-align:center;color:#fff;padding:0.5rem 0;line-height: 3.5rem;}
 /*

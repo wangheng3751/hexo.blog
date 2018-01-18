@@ -43,7 +43,8 @@ var driver = new webdriver.Builder()
 driver.get('http://www.baidu.com');
 ```
 #### 二.常用方法
-1. 元素定位
+##### 1.元素定位
+
 - 根据id定位
 ```
 driver.findElement(By.id('ID'))；//类似于jquery的$("#id")
@@ -54,32 +55,42 @@ driver.findElement(By.className('Class'))；//类似于jquery的$(".class")
 ```
 - 更多定位方式可参考：http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/index_exports_By.html
 
-2. 设置元素的值
+##### 2.设置元素的值
+
 ```
 driver.findElement(By.id('ID')).sendKeys('value');//类似于jquery的$(".id").val("value");
 ```
 
-3. 清空元素的值
+##### 3.清空元素的值
+
 ```
 driver.findElement(By.id('id')).clear();
 ```
-4. 单击按钮
+
+##### 4.单击按钮
+
 ```
 driver.findElement(By.id('id')).click();  
 ```
-5. 元素等待
+
+##### 5.元素等待
+
 有时对一些元素需要等待页面跳转或操作完成才会显示，如果操作耗时或者网络原因，如果该元素还没出现就进行操作可能会跑出异常，这是我们需要设置一些等待，等待该元素出现在页面上时才能进行操作：
 ```
 var until = webdriver.until;
 driver.wait(until.elementLocated(By.id('id'), 10000));
 ...
 ```
-6. 程序睡眠
+
+##### 6.程序睡眠
+
 睡眠功能解决的问题和元素等待类似，更推荐使用元素等待方法。
 ```
 driver.sleep(500);//毫秒
 ```
-7. 执行JavaScript
+
+##### 7.执行JavaScript
+
 在网页上运行一段javascript,此方法在selenium的使用中非常有用，当有些时候某个元素是在难以获取时，可使用该方法直接触发该元素本身的操作，例如某个按钮点击后执行网页跳转，但是我们难以定位该元素时可以直接使用以下方式跳转：
 ```
 driver.executeScript('location.href="/xx.html" ');
@@ -88,7 +99,9 @@ driver.executeScript('location.href="/xx.html" ');
 ```
 driver.executeScript('document.getElementById("id").value="value"');//$("#id").val("value");
 ```
-8. 执行JavaScript并获取返回值
+
+##### 8.执行JavaScript并获取返回值
+
 在网页上运行JavaScript还可返回值，以供我们自动运行程序调用做出一些判断，比如可以检查网页上的某个值大于100做某种操作，小于100做另外一种操作。
 ```
 driver.executeScript('return $("#id").val()').then(function(obj){
@@ -100,7 +113,9 @@ driver.executeScript('return $("#id").val()').then(function(obj){
     }
 })
 ```
-9. 切换作用域（switchTo）
+
+##### 9.切换作用域（switchTo）
+
 - 切换到iframe
 网页中常常会嵌入一些iframe，或者是标签页面或者是弹窗的形式。这是要操作iframe里面的元素前就需把当前的作用域切换到iframe，切换后在切换会主页面前所有的操作都是针对iframe，在iframe内的操作结束后需切换回主页面。
 ```
@@ -121,11 +136,15 @@ driver.switchTo().alert().then(function(alert) {
 ```
 driver.switchTo().defaultContent();
 ```
-10. 网页最大化（全屏）
+
+##### 10.网页最大化（全屏）
+
 ```
 driver.manage().window().maximize(); 
 ```
-11. 网页截图(定位)
+
+##### 11.网页截图(定位)
+
 网页截图看上去很简单，就一行代码如下：
 ```
 driver.takeScreenshot()；
@@ -158,9 +177,12 @@ driver.findElement(By.className('yanzheng')).then(function(obj){
         }
 })
 ```
-12. 退出程序（关闭网页）
+
+##### 12.退出程序（关闭网页）
+
 ```
 driver.quit();
 ```
+
 
 更多详细文档可参考官方文档：http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/

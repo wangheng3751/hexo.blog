@@ -41,7 +41,7 @@ after_script:
 
 branches:
   only:
-    - master
+    - publish
 env:
  global:
    - GH_REF: github.com/wangheng3751/wangheng3751.github.io.git

@@ -16,6 +16,10 @@
 - git add .
 - git commit -m "readme"
 - git push 
+- git branch
+- git checkout -b branchName  //git branch publish + git checkout branchName  
+- git checkout branchName
+- git merge branchName
 
 ## 参考资料
 

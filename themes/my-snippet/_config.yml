@@ -20,6 +20,9 @@ menu:
 - page: 格言
   url: /categories/格言/
   icon: 
+- page: 成长日记
+  url: /categories/成长日记/
+  icon: 
 
 ## favicon 
 favicon: /favicon.ico
@@ -53,7 +56,9 @@ jsonContent:
 
 ## 网站公告设置
 notification: |-
-            <p>个人博客正在建设中~~</br>
+            <p>本博客用于对博主工作中遇到的一些问题及解决方案的记录和总结，便于自己以后查询也帮助一些遇到同样问题并且看到本博客的人解决问题!
+            <div style="margin-bottom:10px">部分内容来源于网络，可能未注明出处，如有侵权，请联系博主删除，邮箱：<a target='_blank' href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=KB4RGxkQHB0aEGhZWQZLR0U">wangheng3751@qq.com</a></div>
+            <p>如有问题，可加入博主个人技术讨论QQ群：516032289</p>
             </p>
 
 ## 社交设置
@@ -83,14 +88,14 @@ arch_config:
    order: -1
 
 ## 友链设置
-#links:
-  #- 个人博客: http://www.shenliyang.com
+links:
+  - 我的简书: https://www.jianshu.com/u/95064c5d51c7
 
 
 # 主题自定义个性化配置
 
 ## 网站宣传语
-branding: 有恒则成
+branding: 学问之道无穷，而总以有「恒」为主
 
 ## 设置banner背景图片
 banner:
@@ -136,7 +141,7 @@ gitment:
 ### 来必力
 livere: 
   enable: true
-  livere_uid: MTAyMC8zMzA1MS85NjEz
+  livere_uid: MTAyMC8zMzMwMi85ODU5
 
 ### 友言评论
 uyan:
@@ -167,7 +172,7 @@ tencent_analytics: 64969916
 baidu_push:
 
 #网站主题配置
-since: 2017
+since: 2018
 robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.2.1
 

@@ -9,6 +9,6 @@ tags: C#
 
 #### 资料
 
-[ABP官方](https://aspnetboilerplate.com)
-[ABP翻译文档](https://github.com/ABPFrameWorkGroup/AbpDocument2Chinese)
-博客：[阳光铭睿](http://www.cnblogs.com/mienreal/p/4528470.html)
+[ABP官方](https://aspnetboilerplate.com) : https://aspnetboilerplate.com
+[ABP翻译文档](https://github.com/ABPFrameWorkGroup/AbpDocument2Chinese) : https://github.com/ABPFrameWorkGroup/AbpDocument2Chinese
+博客：[阳光铭睿](http://www.cnblogs.com/mienreal/p/4528470.html) : http://www.cnblogs.com/mienreal/p/4528470.html

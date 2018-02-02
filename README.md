@@ -17,7 +17,7 @@
 - git commit -m "readme"
 - git push 
 - git branch
-- git checkout -b branchName  //git branch publish + git checkout branchName  
+- git checkout -b branchName  //git branch branchName + git checkout branchName  
 - git checkout branchName
 - git merge branchName
 

@@ -14,8 +14,10 @@ categories: 前端
 >import 'font-awesome/css/font-awesome.css'
 
 接下来就开始愉快的使用各种图标了：
-> '<i class="fa fa-search"></i>'
- '<i class="fa fa-star"></i>'
+```
+ <i class="fa fa-search"></i>
+ <i class="fa fa-star"></i>
+ ```
 
 npm run dev   之后效果也如预期般顺利，这样的：
 ![image.png](https://upload-images.jianshu.io/upload_images/9814928-68b60ed6333916a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

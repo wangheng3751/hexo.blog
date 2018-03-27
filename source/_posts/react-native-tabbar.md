@@ -70,6 +70,7 @@ module.exports = TabIcon;
 - 定义菜单标题和图标的data数据的key（即例子中的home/movies/theaters/me）和步骤3中每一个Scene的key一一对应；
 - 判断菜单是否被选中this.props.focused在老版本的react-native-router-flux使用this.props.selected;
 - 取当前菜单this.props.navigation.state.key在老版本的react-native-router-flux使用this.props.sceneKey。
+
 ### 3.定义底部导航栏（appRoot.js）
 ```
 import React, { Component } from 'react';
